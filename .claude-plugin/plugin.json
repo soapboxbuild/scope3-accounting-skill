@@ -1,0 +1,8 @@
+{
+  "name": "scope3-accounting",
+  "version": "0.1.0",
+  "description": "GHG Protocol / PCAF real estate carbon accounting — Scope 1/2/3 calculation, Category 13 (leased assets) and Category 15 (investments), PCAF methodology, and emission factor databases for reporting-grade carbon inventories.",
+  "author": { "name": "Soapbox", "url": "https://soapbox.build" },
+  "homepage": "https://github.com/soapboxbuild/scope3-accounting-skill",
+  "license": "Apache-2.0"
+}
