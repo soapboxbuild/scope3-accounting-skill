@@ -5,6 +5,33 @@ description: Calculate Scope 1, 2, and 3 GHG emissions for real estate using GHG
 
 # Scope 3 Carbon Accounting for Real Estate
 
+## Category Routing — REQUIRED FIRST QUESTION
+
+Ask before any calculation: "Are you the direct owner/operator of the building, or do you hold an investment interest (equity, debt, fund unit) in an entity that owns it?"
+
+- **Owner/operator** → Category 13 (Downstream Leased Assets) if tenants occupy, or Scope 1/2 if owner-occupied
+- **Investment fund / equity holder** → Category 15 (Investments) under PCAF methodology
+
+These use completely different calculation methods, attribution boundaries, and PCAF requirements. Misclassification produces materially wrong reported figures.
+
+**PCAF Data Quality Score — always disclose:**
+| Score | Basis |
+|-------|-------|
+| 1 | Actual utility meter data (highest quality) |
+| 2 | Invoiced energy use by asset manager |
+| 3 | Property-level physical activity data |
+| 4 | Asset-level model estimates |
+| 5 | Modeled from floor area and asset class (lowest quality) |
+
+**US Electricity — use eGRID subregion factors (NOT national average):**
+Range: 0.15 tCO2e/MWh (CAMX/California) to 0.70 tCO2e/MWh (SRVC/Southeast). Ask for building state.
+
+**Scope 2 — always report BOTH:**
+- Location-based: grid average emission factors
+- Market-based: contractual instruments (RECs, PPAs) — may be zero with PPAs
+
+CSRD (ESRS E1) and GHG Protocol require both Scope 2 methods to be disclosed.
+
 ## GHG Protocol Scopes for Real Estate
 
 ### Scope 1 — Direct Emissions
